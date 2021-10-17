@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container-fluid {
+	width: 100%;
+}
+.container1 {
+	margin: 0;
+	display: flex;	
+}
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10, .bg-11, .bg-12, .bg-12, .bg-13
+{
+	height: 150px;
+	color: #ffffff;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 15px;
+}
+.bg-1 {
+	width: 20%;
+	background-color: #f57c2c;
+}
+.bg-2 {
+	width: 60%;
+	background-color: #63615f;
+	color: #ffffff;
+}
+.bg-3 {
+	width: 20%;
+	background-color: #f5432c;
+}
+.container2 {
+	background-color: hotpink;
+}
+.bg-4, .bg-8, .bg-10 {
+	background-color: #f5c92c;
+}
+.bg-5, .bg-9 {
+	background-color: #f5a12c;
+}
+.bg-6, .bg-12 {
+	background-color: #f5862c;
+}
+.bg-7, .bg-11 {
+	background-color: #f5432c;
+}
+.bg-13 {
+	background-color: #f57c2c;
+}
+.fa-envelope, .fa-address-card {
+	font-size: 30px;
+	position: absolute;
+	top: 10px;
+}
+.fa-envelope {
+	background-color: #ffffff;
+	width: 50px;
+	color: #000;
+	padding: 5px;
+	left: 12px;
+}
+.fa-address-card {
+	background-color: #f57c2c;
+	width: 50px;
+	padding: 5px;
+	right: 12px;
+}
+h2 {
+	padding-top: 35px;
+}
+
+@media (max-width: 999px) {
+	.container1 {
+		display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+	}
+	.bg-1, .bg-3 {
+	width: 50%;
+	}
+	.bg-2 {
+	width: 100%;
+	}
+	.bg-1 {
+		order: 2;
+	}
+	.bg-2 {
+		order: 1;
+	}
+	.bg-3 {
+		order: 3;
+	}
+	h2 {
+		padding-top: 35px;
+		color: #f5432c;
+	}
+	.fa-envelope, .fa-address-card {
+		font-size: 30px;
+		color: #f57c2c;
+		position: absolute;
+		top: 10px;
+		background-color: #63615f;
+	}
+	.fa-envelope {
+		left: 20px;
+	}
+	.fa-address-card {
+		right: 20px;
+	}
+	.container2 {
+		display: flex;
+        flex-direction: column;
+	}
+	.bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10, .bg-11, .bg-12, .bg-12, .bg-13
+	{	
+		flex: 50%;
+	}
+}
+@media (max-width: 599px) {
+	.container1 {
+		display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+	}
+	.bg-1, .bg-2, .bg-3 {
+	width: 100%;
+	}
+	.bg-1 {
+		order: 2;
+	}
+	.bg-2 {
+		order: 1;
+	}
+	.bg-3 {
+		order: 3;
+	}
+	h2 {
+		padding-top: 35px;
+		color: #f5c92c;
+	}
+	.fa-envelope, .fa-address-card {
+		font-size: 30px;
+		color: #f5c92c;
+		position: absolute;
+		top: 10px;
+	}
+	.fa-envelope {
+		left: 15px;
+	}
+	.fa-address-card {
+		right: 15px;
+	}
+	.container2 {
+		display: flex;
+        flex-direction: column;
+	}
+	.bg-4, .bg-5, .bg-6, .bg-7, .bg-8, .bg-9, .bg-10, .bg-11, .bg-12, .bg-12, .bg-13
+	{	
+		flex: 100%;
+	}
+}
+
+
+
+
+
+
